@@ -1,6 +1,6 @@
 x = [input(f"Numero {i+1}: \n") for i in range(0, 8)]
 
-def test(operation):
+def search(operation):
     cont = 1
     valor = ""
     for k in x:
@@ -18,5 +18,5 @@ def test(operation):
                 else:
                     pass
                 
-print(f" Maior: {test('>')}")
-print(f" Menor: {test('<')}")
+print(f" Maior: {search('>')}")
+print(f" Menor: {search('<')}")
